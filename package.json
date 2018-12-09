@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "build": "scripts/build.sh",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "jest && npm run tsc",
     "tsc": "tsc --noEmit --strict src/idx.test.ts"
   },
